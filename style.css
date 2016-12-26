@@ -17,6 +17,6 @@ p {
 }
 
 iframe { 
-    position: relative;
-    left: 150px;
+    position: relative; 
+   width: 100%; /* for IE 6 */
    }
