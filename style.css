@@ -19,4 +19,5 @@ p {
 iframe { 
    display: block;
 margin: 0 auto;
+  size: 50%
    }
