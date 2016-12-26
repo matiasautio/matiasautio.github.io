@@ -15,3 +15,8 @@ img {
 p {
     font-family: "Courier New", Courier, monospace;
 }
+
+iframe {
+    position: relative; 
+   width: 100%; /* for IE 6 */
+   }
