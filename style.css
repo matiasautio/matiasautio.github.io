@@ -19,6 +19,10 @@ p {
     font-family: "Courier New", Courier, monospace;
 }
 
+ p #linja{
+display: inline;
+}
+
 iframe { 
     position: relative; 
    width: 100%; /* for IE 6 */
