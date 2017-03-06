@@ -19,10 +19,6 @@ p {
     font-family: "Courier New", Courier, monospace;
 }
 
- a #center{
-text-align: center;
-}
-
 iframe { 
     position: relative; 
    width: 100%; /* for IE 6 */
