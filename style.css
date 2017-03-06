@@ -12,15 +12,15 @@ img {
 }
 
 .center{
-   text-align: center;
+   
 }
     
 p {
     font-family: "Courier New", Courier, monospace;
 }
 
- p #inline{
-display: inline;
+ a #center{
+text-align: center;
 }
 
 iframe { 
