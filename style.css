@@ -3,10 +3,10 @@
    width: 100%; /* for IE 6 */
 }
 body {
-  background-color: #0000;
+  background-color: #ffff;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 18px;
-  color: #ffff;
+  color: #0000;
 }
 html,
 body {
