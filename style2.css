@@ -1,0 +1,144 @@
+.video { 
+
+   position: relative; 
+
+   width: 100%; /* for IE 6 */
+
+}
+body {
+   /* background-image: /public_html/1.jpg("yksi");
+    background-color: #cccccc;*/
+  background-size: cover;
+  background-color: #ffffff;
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  
+}
+
+
+
+
+h2 { 
+
+   text-align: center;
+   font-family: Karla, sans-serif;
+
+}
+
+
+
+
+img {
+
+    margin: auto;
+
+}
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    font-style: oblique;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    opacity: 0.0;
+}
+
+
+
+.center{
+
+   text-align: center;
+
+   
+
+}
+
+    
+
+p {
+
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+
+
+iframe { 
+
+    position: relative; 
+
+   width: 100%; /* for IE 6 */
+
+   }
+   
+#wrapper {
+    /*border: 1px solid blue;*/
+    display: flex;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    min-height: auto;
+    justify-content: center;
+}
+#div1 {
+    display: inline-block;
+    width:500px;
+    height:auto;
+   /*border: 1px solid red;*/
+}
+#div2 {
+    vertical-align:top;
+    display: inline-block;
+    width:500px;
+    height:auto;
+    /*border: 1px solid green;*/
+}
+@media screen and (max-width: 900px) {
+  #container, #header, #content, #footer, #wrapper, #div1, #div2{
+    clear: both;
+    float: none;
+    width: auto;
+    font-size: 1em;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em;
+}
+#wrapper {
+    /*border: 1px solid blue;*/
+    display: block;
+    margin-top: autox;
+    margin-left: autox;
+    margin-right: autopx;
+    min-height: auto;
+}
+#div1 {
+    display: block;
+    margin: auto;
+    width: auto;
+    height:auto;
+   /*border: 1px solid red;*/
+}
+
+#div2 {
+    vertical-align:top;
+    display: block;
+    margin: auto;
+    width: auto;
+    height:auto;
+    /*border: 1px solid green;*/
+}
