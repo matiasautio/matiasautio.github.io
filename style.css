@@ -7,12 +7,18 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 18px;
   color: #000000;
-  margin-left: 4%;
 }
 
 html,
 body {
   height: 100%;
+}
+
+#divbio
+{
+    display: inline-block;
+    margin-left: 4%;
+    width: 60%;
 }
 
 h2 { 
@@ -33,9 +39,12 @@ p {
 }
 
 pre {
+    display: inline-block;
     font-family: "Karla", sans-serif;
     font-size: 14px;
     color: #000000;
+    text-align: left;
+    white-space: pre-wrap;
 }
 
 iframe { 
